@@ -1,41 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title></title>
-    <!-- Font-Awesome -->
-    <script
-      src="https://kit.fontawesome.com/94cb6e23e1.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- AoS Href -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <!-- GoogleFonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Custom Styles Implementation -->
-    <link rel="stylesheet" href="css/main.css" />
-  </head>
-  <body>
-    <header>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title></title>
+  <!-- Font-Awesome -->
+  <script src="https://kit.fontawesome.com/94cb6e23e1.js" crossorigin="anonymous"></script>
+  <!-- AoS Href -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- GoogleFonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+  <!-- Custom Styles Implementation -->
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <img src="img/logo.png" alt="" />
+        </div>
+        <ul id="main-nav">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="main-container">
+    <!-- Section 1: Showcase -->
+    <section id="showcase">
       <div class="container">
-        <nav>
-          <div class="logo">
-            <img src="img/logo.png" alt="" />
-          </div>
-          <ul id="main-nav">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
+        <div class="text-wrapper">
+          <h1>I am Gogana and I Rock Hard Rly HARD</h1>
+          <h2>Web Developer & Designer</h2>
+        </div>
+        <a href="#" class="btn">Read More
+          <i class="fas fa-chevron-down"></i>
+        </a>
       </div>
-    </header>
+    </section>
+
 
     
       <!-- Section 1: Showcase -->
@@ -69,87 +80,118 @@
               <div class="line-1"></div>
               <div class="line-2"></div>
             </div>
+
+    <!-- Section 2: About -->
+    <section id="about">
+      <div class="container">
+        <div class="text-wrapper">
+          <h2>
+            About
+          </h2>
+          <div class="lines">
+            <div class="line-1"></div>
+            <div class="line-2"></div>
           </div>
-          <div class="flex-wrapper">
-            <div class="flex-item">
-              <img src="img/profile.jpg" alt="" />
-            </div>
-            <div class="flex-item">
-              <div class="text-wrapper">
-                <h3>Gorana Radovic</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
-                  asperiores itaque ea, autem incidunt ipsum deserunt
-                  reprehenderit delectus pariatur, sapiente recusandae nam
-                  expedita exercitationem enim saepe cum praesentium obcaecati
-                  nostrum impedit voluptatem sunt maiores! Esse dolor quod atque
-                  repudiandae! Sunt eos a modi repellendus pariatur aut ipsum et
-                  magni dolores!
-                </p>
-                <a href="#" class="btn"
-                  >Portfolio
-                  <i class="fas fa-chevron-right"></i>
-                </a>
-              </div>
+        </div>
+        <div class="flex-wrapper">
+          <div class="flex-item">
+            <img src="img/profile.jpg" alt="" />
+
+          </div>
+          <div class="flex-item">
+            <div class="text-wrapper">
+              <h3>Gorana Radovic</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+                asperiores itaque ea, autem incidunt ipsum deserunt
+                reprehenderit delectus pariatur, sapiente recusandae nam
+                expedita exercitationem enim saepe cum praesentium obcaecati
+                nostrum impedit voluptatem sunt maiores! Esse dolor quod atque
+                repudiandae! Sunt eos a modi repellendus pariatur aut ipsum et
+                magni dolores!
+              </p>
+              <a href="#" class="btn">Portfolio
+                <i class="fas fa-chevron-right"></i>
+              </a>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- Section 3: Services -->
-      <section id="services">
-        <div class="container">
-          <div class="text-wrapper">
-            <h2>
-              Services
-            </h2>
-            <div class="lines">
-              <div class="line-1"></div>
-              <div class="line-2"></div>
+    <!-- Section 3: Services -->
+    <section id="services">
+      <div class="container">
+        <div class="text-wrapper">
+          <h2>
+            Services
+          </h2>
+          <div class="lines">
+            <div class="line-1"></div>
+            <div class="line-2"></div>
+          </div>
+        </div>
+        <div class="grid-wrapper">
+          <div class="grid-item">
+            <i class="fas fa-pen-fancy fa-2x"></i>
+            <div class="fake">
+              <h4>DESIGN</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eveniet hic delectus fuga?
+              </p>
             </div>
           </div>
-          <div class="grid-wrapper">
-            <div class="grid-item">
-              <i class="fas fa-pen-fancy fa-2x"></i>
-              <div class="fake">
-                <h4>DESIGN</h4>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Eveniet hic delectus fuga?
-                </p>
-              </div>
-            </div>
-            <div class="grid-item">
-              <i class="fas fa-desktop fa-2x"></i>
-              <div class="fake">
-                <h4>development</h4>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Eveniet hic delectus fuga?
-                </p>
-              </div>
-            </div>
-            <div class="grid-item">
-              <i class="fas fa-globe fa-2x"></i>
-              <div class="fake">
-                <h4>SEO</h4>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Eveniet hic delectus fuga?
-                </p>
-              </div>
-            </div>
-            <div class="grid-item">
-              <i class="fas fa-bullhorn fa-2x"></i>
-              <div class="fake">
-                <h4>marketing</h4>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Eveniet hic delectus fuga?
-                </p>
-              </div>
+          <div class="grid-item">
+            <i class="fas fa-desktop fa-2x"></i>
+            <div class="fake">
+              <h4>development</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eveniet hic delectus fuga?
+              </p>
             </div>
           </div>
+          <div class="grid-item">
+            <i class="fas fa-globe fa-2x"></i>
+            <div class="fake">
+              <h4>SEO</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eveniet hic delectus fuga?
+              </p>
+            </div>
+          </div>
+          <div class="grid-item">
+            <i class="fas fa-bullhorn fa-2x"></i>
+            <div class="fake">
+              <h4>marketing</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eveniet hic delectus fuga?
+              </p>
+            </div>
+          </div>
+           <div class="skills py-2">
+          <div class="skills-img">
+            <img src="img/5847f5bdcef1014c0b5e489c.png" alt="">
+          </div>
+          <div class="skills-img">
+            <img src="img/CSS.3.svg.png" alt="">
+          </div>
+          <div class="skills-img">
+            <img src="img/JavaScript-logo.png" alt="">
+          </div>
+          <div class="skills-img">
+            <img src="img/WordPress-logotype-wmark.png" alt="">
+          </div>
+          <div class="skills-img">
+            <img src="img/photoshop-logo-png-open-2000.png" alt="">
+          </div>
+          <div class="skills-img">
+            <img src="img/c-logo-icon-18.png" alt="">
+          </div>
+        </div>
         </div>
       </section>
     </div>
@@ -161,3 +203,15 @@
     </script>
   </body>
 </html>
+
+   
+  </div>
+  <!-- AoS Init -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
+
