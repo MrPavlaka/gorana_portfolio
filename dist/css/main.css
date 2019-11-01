@@ -499,6 +499,24 @@ h6 {
 .mx-5 {
   margin: 0 5rem; }
 
+.skills {
+  display: flex;
+  padding: 2rem;
+  justify-content: center; }
+
+.skills-img {
+  width: 15%;
+  padding: 1rem;
+  transition: all 1s;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); }
+
+.skills-img img {
+  width: 100%;
+  z-index: 1; }
+
+.skills-img:hover {
+  width: 23%; }
+
 body {
   font-family: Helvetica, sans-serif;
   background: #eee; }
