@@ -536,7 +536,6 @@ h6 {
 .mx-5 {
   margin: 0 5rem; }
 
-
 header {
   width: 100%;
   background: #eee;
@@ -613,6 +612,7 @@ header {
       height: 100%;
       z-index: -1;
       background: rgba(3, 25, 39, 0.7); }
+
 .skills {
   display: flex;
   padding: 2rem;
