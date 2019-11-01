@@ -403,9 +403,14 @@ textarea {
   padding: 0.2em 0; }
 
 .container {
-  width: 75%;
-  max-width: 1240px;
+  max-width: 1140px;
   margin: 0 auto; }
+
+.main-container {
+  width: 75%;
+  max-width: 1140px;
+  margin: 0 auto;
+  box-shadow: 1px 1px 30px #333; }
 
 a {
   text-decoration: none; }
@@ -495,4 +500,5 @@ h6 {
   margin: 0 5rem; }
 
 body {
-  font-family: Helvetica, sans-serif; }
+  font-family: Helvetica, sans-serif;
+  background: #eee; }
