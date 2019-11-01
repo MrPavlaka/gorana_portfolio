@@ -1,0 +1,59 @@
+header {
+    width: 100%;
+    background: $background-color;
+    border-bottom: 1px solid red;
+    padding: 1rem 0;
+    z-index: 999;
+    position: fixed;
+
+    .container {
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .logo {
+                img {
+                    width: 70px;
+                }
+            }
+
+            ul {
+                display: flex;
+                justify-content: space-between;
+
+                li {
+                    display: inline-block;
+
+                    a {
+                        color: $primary-color;
+                        display: inline-block;
+                        padding: 1rem 1.2rem;
+                        font-weight: bold;
+                        position: relative;
+
+                        &::after {
+                            content: '';
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            width: 0;
+                            height: 3px;
+                        }
+
+
+                        &:hover {
+
+                            &::after {
+                                width: 100%;
+                                background: $color-font-light;
+                                transition: 0.3s ease-out;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
